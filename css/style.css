@@ -67,3 +67,13 @@ body {
   width: 500px;
 }
 /* end features */
+
+
+/* start pricing  */
+.pricing .date-pricing{
+  width: fit-content !important;
+}
+.pricing  .card:first-child{
+  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+}
+/* end pricing  */
