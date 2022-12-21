@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --main-color: #242f51;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+/* start nav */
+
+.navbar .container a.nav-link {
+  color: var(--main-color);
+  font-weight: 500;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .container .title-page {
+  font-weight: bold;
+  color: #fcae61;
+}
+.navbar .container .title-page span {
+  color: var(--main-color);
+}
+/* end nav */
+/* start landing page  */
+.landing-page {
+  position: relative;
+  min-height: calc(100vh - 72px);
+  background-size: cover;
+  /* background-color: #242f51 */
+}
+.landing-page .landing-3-image {
+  left: -100px;
+  bottom: 0;
+  width: 100%;
+}
+.landing-page .landing-4-image{
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.landing-page .badge-check i {
+  z-index: 100;
+  left: 0;
+}
+.landing-page .badge-check p {
+  background-color: #e2eaed;
+  width: fit-content;
+}
+.landing-page .best-app {
+  font-size: 60px !important;
+}
+.landing-page .description {
+  max-width: 500px !important;
+  color: #616368;
+}
+.landing-page .img-landing {
+  max-width: 650px;
+}
+
+/* end landing page  */
+/* start features */
+.features h2{
+  color: var(--main-color);
+}
+.features .feature-img{
+  width: 500px;
+}
+/* end features */
