@@ -77,3 +77,13 @@ body {
   box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
 }
 /* end pricing  */
+
+/* start questions */
+.questions button {
+  background-color: var(--main-color) !important;
+  color: white;
+}
+.questions button:hover {
+  color: white !important;
+}
+/* end questions */
