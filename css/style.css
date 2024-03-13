@@ -34,7 +34,7 @@ body {
   bottom: 0;
   width: 100%;
 }
-.landing-page .landing-4-image{
+.landing-page .landing-4-image {
   right: 0;
   top: 0;
   width: 100%;
@@ -60,20 +60,19 @@ body {
 
 /* end landing page  */
 /* start features */
-.features h2{
+.features h2 {
   color: var(--main-color);
 }
-.features .feature-img{
+.features .feature-img {
   width: 500px;
 }
 /* end features */
 
-
 /* start pricing  */
-.pricing .date-pricing{
+.pricing .date-pricing {
   width: fit-content !important;
 }
-.pricing  .card:first-child{
+.pricing .card:first-child {
   box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
 }
 /* end pricing  */
@@ -85,5 +84,6 @@ body {
 }
 .questions button:hover {
   color: white !important;
+  font-family: "Courier New", Courier, monospace;
 }
 /* end questions */
